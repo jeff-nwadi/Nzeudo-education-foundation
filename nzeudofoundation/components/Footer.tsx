@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react";
+import Image from "next/image";
+import logo from "@/images/Nze-logo.svg";
 
 const Footer = () => {
   return (
@@ -9,7 +11,7 @@ const Footer = () => {
             {/* Brand */}
             <div>
                 <Link href="/" className="text-2xl heading-text font-bold text-white mb-6 block">
-                    Nzeudo<span className="text-green-500">Foundation</span>
+                    <Image src={logo} alt="Logo" width={200} height={200} className="" />
                 </Link>
                 <p className="mb-6 leading-relaxed">
                     Empowering the next generation through education, innovation, and community support.
