@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -63,12 +64,12 @@ const Hero = () => {
           Nzeudo Education Foundation is dedicated to bridging the gap in educational access and fostering academic excellence for every child.
         </p>
         <div className="hero-text-element flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="px-8 py-4 bg-green-600 hover:bg-green-700 text-white rounded-full font-semibold text-lg transition-all transform hover:scale-105 active:scale-95 shadow-sm shadow-green-900/20">
+          <Link href="/about" className="px-8 py-4 bg-green-600 hover:bg-green-700 text-white rounded-full font-semibold text-lg transition-all transform hover:scale-105 active:scale-95 shadow-sm shadow-green-900/20">
             Our Mission
-          </button>
-          <button className="px-8 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white border border-white/30 rounded-full font-semibold text-lg transition-all">
+          </Link>
+          <Link href="/" className="px-8 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white border border-white/30 rounded-full font-semibold text-lg transition-all">
             Apply for Scholarship
-          </button>
+          </Link>
         </div>
       </div>
       

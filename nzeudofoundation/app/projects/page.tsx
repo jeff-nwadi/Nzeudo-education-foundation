@@ -105,7 +105,7 @@ export default function ProjectsPage() {
                 </div>
             </div>
 
-            <div className="container mx-auto px-6 -mt-20 relative z-20">
+            <div className="container mx-auto px-6 md:-mt-20 mt-10 relative z-20">
                 <div className="projects-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, idx) => (
                         <div key={idx} className="project-card group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-sm transition-all duration-300 border border-gray-100 flex flex-col h-full">
@@ -133,7 +133,7 @@ export default function ProjectsPage() {
                     ))}
                 </div>
 
-                <div className="mt-24 text-center bg-green-600 rounded-3xl p-16 relative overflow-hidden shadow-sm">
+                <div className="mt-24 text-center bg-green-600 rounded-3xl md:p-16 p-8 relative overflow-hidden shadow-sm">
                     {/* decorative */}
                     <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2 pointer-events-none" />
                     <div className="absolute bottom-0 left-0 w-64 h-64 bg-black/10 rounded-full blur-[80px] translate-y-1/2 -translate-x-1/2 pointer-events-none" />
@@ -143,7 +143,7 @@ export default function ProjectsPage() {
                         <p className="text-green-100 mb-10 max-w-2xl mx-auto text-lg">We are always looking for new ways to make an impact. We welcome proposals and partnership opportunities from individuals and organizations.</p>
                         <Link
                             href="/contact"
-                            className="inline-block px-10 py-5 bg-white text-green-600 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors shadow-sm hover:shadow-sm hover:-translate-y-1 transform duration-300"
+                            className="inline-block md:px-10 px-5 md:py-5 py-3 bg-white text-green-600 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors"
                         >
                             Submit a Proposal
                         </Link>

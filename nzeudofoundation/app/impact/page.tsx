@@ -87,11 +87,11 @@ export default function ImpactPage() {
                         { label: "Books Distributed", value: "5000+", icon: BookOpen, color: "text-green-500", bg: "bg-green-500/10" },
                         { label: "Schools Partnered", value: "50+", icon: School, color: "text-purple-500", bg: "bg-purple-500/10" },
                     ].map((stat, idx) => (
-                        <div key={idx} className="stat-card bg-white p-8 rounded-3xl text-center shadow-sm border border-gray-100 hover:-translate-y-2 transition-transform duration-300">
+                        <div key={idx} className="stat-card bg-white md:p-8 p-2 rounded-3xl text-center shadow-sm border border-gray-100 hover:-translate-y-2 transition-transform duration-300">
                             <div className={`mx-auto ${stat.color} ${stat.bg} w-16 h-16 rounded-2xl flex items-center justify-center mb-6`}>
                                 <stat.icon size={32} />
                             </div>
-                            <h3 data-value={stat.value} className="stat-value text-5xl font-bold text-gray-900 mb-2 font-mono tracking-tighter">0</h3>
+                            <h3 data-value={stat.value} className="stat-value md:text-5xl text-2xl font-bold text-gray-900 mb-2 font-mono tracking-tighter">0</h3>
                             <p className="text-sm text-gray-500 uppercase tracking-widest font-semibold">{stat.label}</p>
                         </div>
                     ))}

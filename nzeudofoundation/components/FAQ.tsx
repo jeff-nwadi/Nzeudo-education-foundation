@@ -55,11 +55,11 @@ const FAQ = () => {
                                 onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
                                 className="w-full flex items-center justify-between p-6 text-left focus:outline-none"
                             >
-                                <span className={cn("text-lg font-semibold heading-text", openIndex === idx ? "text-blue-600" : "text-gray-900")}>
+                                <span className={cn("text-lg font-semibold heading-text", openIndex === idx ? "text-green-600" : "text-gray-900")}>
                                     {faq.question}
                                 </span>
                                 {openIndex === idx ? (
-                                    <Minus className="text-blue-500 shrink-0" size={20} />
+                                    <Minus className="text-green-600 shrink-0" size={20} />
                                 ) : (
                                     <Plus className="text-gray-400 shrink-0" size={20} />
                                 )}

@@ -34,7 +34,7 @@ const About = () => {
 
     return (
         <section id="about" ref={containerRef} className="py-24 bg-gray-50 overflow-hidden">
-            <div className="container mx-auto px-6">
+            <div className="container mx-auto md:px-6 px-3">
                 <div className="flex flex-col lg:flex-row items-center gap-16">
                     <div className="w-full lg:w-1/2 relative">
                         <div className="about-reveal relative h-[600px] w-full rounded-2xl overflow-hidden">

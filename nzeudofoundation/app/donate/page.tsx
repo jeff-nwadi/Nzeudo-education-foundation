@@ -25,7 +25,7 @@ export default function DonatePage() {
                 </div>
             </div>
 
-            <div className="container mx-auto px-6 -mt-24 relative z-20">
+            <div className="container mx-auto px-6 md:-mt-24 mt-16 relative z-20">
                 <div className="max-w-5xl mx-auto">
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
@@ -41,18 +41,18 @@ export default function DonatePage() {
                                 <h2 className="text-2xl font-bold text-gray-900 heading-text">Bank Transfer</h2>
                             </div>
 
-                            <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 space-y-4">
-                                <div className="flex justify-between items-center pb-4 border-b border-gray-200 dark:border-zinc-800">
+                            <div className="bg-gray-50 md:p-6 p-2 rounded-2xl border border-gray-100 space-y-6">
+                                <div className="flex justify-between items-center pb-4 border-b border-gray-200">
                                     <span className="text-sm text-gray-500 font-medium">Bank Name</span>
                                     <span className="text-gray-900 font-bold">First Bank</span>
                                 </div>
-                                <div className="flex justify-between items-center pb-4 border-b border-gray-200 dark:border-zinc-800">
+                                <div className="flex justify-between items-center pb-4 border-b border-gray-200">
                                     <span className="text-sm text-gray-500 font-medium">Account Name</span>
-                                    <span className="text-gray-900 font-bold text-right">Nzeudo Education Foundation</span>
+                                    <span className="text-gray-900 font-bold text-right text-sm md:text-base">Nzeudo Education Foundation</span>
                                 </div>
                                 <div className="flex justify-between items-center pt-2">
                                     <span className="text-sm text-gray-500 font-medium">Account Number</span>
-                                    <span className="text-2xl font-mono font-bold text-blue-600 tracking-wider">2034567890</span>
+                                    <span className="md:text-2xl text-xl font-mono font-bold text-blue-600 tracking-wider">2034567890</span>
                                 </div>
                             </div>
                             <p className="text-sm text-gray-500 mt-6 text-center">Please use your name as the reference.</p>
