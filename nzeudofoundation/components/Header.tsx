@@ -3,6 +3,9 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
+import logo from '@/images/Nze-logo.svg';
+import DarkLogo from '@/images/nze-dark-logo.svg';
 
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -37,15 +40,15 @@ const Header = () => {
                 scrolled ? "bg-white/90 backdrop-blur-md shadow-sm py-3" : "bg-transparent"
             )}
         >
-            <Link href="/" className="flex items-center gap-2 z-50 relative">
-                {/* Logo placeholder - replace with actual logo */}
-                <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center text-white font-bold">N</div>
-                <span className={cn(
-                    "text-xl font-bold tracking-tight",
-                    scrolled || mobileMenuOpen ? "text-gray-900" : "text-white"
-                )}>
-                    Nzeudo Foundation
-                </span>
+            <Link href="/" className="flex items-center z-50 relative">
+                <Image
+                    src={scrolled || mobileMenuOpen ? DarkLogo : logo}
+                    alt="Nzeudo Foundation"
+                    width={200}
+                    height={200}
+                    className="md:h-15 h-13 w-auto object-contain"
+                    priority
+                />
             </Link>
 
             {/* Desktop Nav */}
