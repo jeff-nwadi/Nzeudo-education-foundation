@@ -48,7 +48,7 @@ const Testimonials = () => {
     }, []);
 
   return (
-    <section id="impact" ref={containerRef} className="py-24 bg-zinc-900 text-white overflow-hidden relative">
+    <section id="impact" ref={containerRef} className="py-24 text-white bg-black overflow-hidden relative">
       {/* Background decoration */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-green-600/10 -skew-x-12 transform translate-x-20 pointer-events-none" />
 

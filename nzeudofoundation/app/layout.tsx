@@ -18,14 +18,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="light">
+    <html lang="en">
       <body className={manrope.className}>
         <SmoothScroll>
-            <Header />
-            <main>
-                {children}
-            </main>
-            <Footer />
+          <Header />
+          <main>
+            {children}
+          </main>
+          <Footer />
         </SmoothScroll>
       </body>
     </html>

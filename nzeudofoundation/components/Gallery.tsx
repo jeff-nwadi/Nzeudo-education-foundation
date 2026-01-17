@@ -58,7 +58,7 @@ const Gallery = () => {
   }, []);
 
   return (
-    <section id="projects" ref={containerRef} className="py-24 bg-white dark:bg-zinc-950">
+    <section id="projects" ref={containerRef} className="py-24 bg-white">
       <div className="container mx-auto px-6">
         <div className="mb-16 text-center">
             <h2 className="text-3xl md:text-5xl heading-text font-bold mb-4">Our Impact in Action</h2>

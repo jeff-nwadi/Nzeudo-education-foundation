@@ -30,32 +30,32 @@ const FAQ = () => {
     const [openIndex, setOpenIndex] = useState<number | null>(0);
 
     return (
-        <section id="faq" className="py-24 bg-white dark:bg-zinc-950">
+        <section id="faq" className="py-24 bg-white">
             <div className="container mx-auto px-6 max-w-4xl">
                 <div className="text-center mb-12">
-                    <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 text-sm font-semibold mb-3">
+                    <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-100 text-green-600 text-sm font-semibold mb-3">
                         <GraduationCap size={16} /> Scholarship & Support
                     </span>
-                    <h2 className="text-3xl md:text-5xl heading-text font-bold text-gray-900 dark:text-white mb-4">Frequently Asked Questions</h2>
+                    <h2 className="text-3xl md:text-5xl heading-text font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
                     <p className="text-gray-500">Everything you need to know about applying for aid and supporting our mission.</p>
                 </div>
 
                 <div className="space-y-4">
                     {faqs.map((faq, idx) => (
-                        <div 
-                            key={idx} 
+                        <div
+                            key={idx}
                             className={cn(
                                 "border rounded-2xl transition-all duration-300 overflow-hidden",
-                                openIndex === idx 
-                                    ? "border-green-500 bg-green-50/50 dark:bg-green-900/10 shadow-sm" 
-                                    : "border-gray-200 dark:border-zinc-800 hover:border-gray-300"
+                                openIndex === idx
+                                    ? "border-green-500 bg-green-50/50 shadow-sm"
+                                    : "border-gray-200 hover:border-gray-300"
                             )}
                         >
-                            <button 
+                            <button
                                 onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
                                 className="w-full flex items-center justify-between p-6 text-left focus:outline-none"
                             >
-                                <span className={cn("text-lg font-semibold heading-text", openIndex === idx ? "text-blue-600" : "text-gray-900 dark:text-white")}>
+                                <span className={cn("text-lg font-semibold heading-text", openIndex === idx ? "text-blue-600" : "text-gray-900")}>
                                     {faq.question}
                                 </span>
                                 {openIndex === idx ? (
@@ -64,14 +64,14 @@ const FAQ = () => {
                                     <Plus className="text-gray-400 shrink-0" size={20} />
                                 )}
                             </button>
-                            <div 
+                            <div
                                 className={cn(
                                     "grid transition-all duration-300 ease-in-out",
                                     openIndex === idx ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
                                 )}
                             >
                                 <div className="overflow-hidden">
-                                    <div className="p-6 pt-0 text-gray-600 dark:text-gray-300 leading-relaxed">
+                                    <div className="p-6 pt-0 text-gray-600 leading-relaxed">
                                         {faq.answer}
                                     </div>
                                 </div>
@@ -80,8 +80,8 @@ const FAQ = () => {
                     ))}
                 </div>
 
-                <div className="mt-12 text-center p-8 bg-gray-50 dark:bg-zinc-900 rounded-2xl border border-dashed border-gray-300 dark:border-zinc-700">
-                    <p className="text-gray-600 dark:text-gray-400 mb-4">Still have questions about your application?</p>
+                <div className="mt-12 text-center p-8 bg-gray-50 rounded-2xl border border-dashed border-gray-300">
+                    <p className="text-gray-600 mb-4">Still have questions about your application?</p>
                     <a href="mailto:support@nzeudofoundation.org" className="text-green-600 font-semibold hover:underline">
                         Contact our Support Team &rarr;
                     </a>
