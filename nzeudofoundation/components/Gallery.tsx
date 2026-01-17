@@ -11,25 +11,25 @@ const projects = [
     {
         title: "Community Library",
         category: "Infrastructure",
-        image: "https://images.unsplash.com/photo-1529390003361-593652875c74?q=80&w=2069&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2070&auto=format&fit=crop",
         size: "large"
     },
     {
         title: "Digital Literacy Program",
         category: "Education",
-        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=2070&auto=format&fit=crop",
         size: "small"
     },
     {
         title: "Scholarship Fund",
         category: "Support",
-        image: "https://images.unsplash.com/photo-1489702932289-406b7782113c?q=80&w=2072&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=2072&auto=format&fit=crop",
         size: "small"
     },
     {
         title: "Rural Outreach",
         category: "Community",
-        image: "https://images.unsplash.com/photo-1534958504270-5b29c238b931?q=80&w=2070&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=2070&auto=format&fit=crop",
         size: "wide"
     }
 ];
