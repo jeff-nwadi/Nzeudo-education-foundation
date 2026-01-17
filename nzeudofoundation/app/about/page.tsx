@@ -76,7 +76,7 @@ export default function AboutPage() {
             priority
         />
         <div className="relative z-10 container mx-auto px-6 text-center text-white">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">About Us</h1>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 heading-text tracking-tight">About Us</h1>
             <p className="text-xl md:text-2xl text-white/80 max-w-2xl mx-auto font-light leading-relaxed">
                 An Enduring Human Capital Development Foundation committed to empowering the next generation.
             </p>
@@ -102,7 +102,7 @@ export default function AboutPage() {
                 </div>
             </div>
             <div className="w-full md:w-3/5">
-                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">The Visionary Behind NEF</h2>
+                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 heading-text">The Visionary Behind NEF</h2>
                 <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
                     <p>
                         <strong>Nzeudo Education Foundation</strong> is a non-profit organization founded by <strong className="text-green-600">Engr. Sir Nze M.B.C Osuagwu</strong>, a chartered chemical engineer with deep expertise in the petroleum industry.
@@ -129,7 +129,7 @@ export default function AboutPage() {
                 <div className="w-14 h-14 bg-red-100 dark:bg-red-900/30 rounded-2xl flex items-center justify-center text-red-600 mb-6">
                     <Target size={32} />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Our Mission</h3>
+                <h3 className="text-2xl font-bold heading-text text-gray-900 dark:text-white mb-4">Our Mission</h3>
                 <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
                     To serve as a platform for supporting <strong className="text-gray-900 dark:text-white">indigent but brilliant children</strong> who have lost their family breadwinner. We focus on the voiceless, the downtrodden, and the neglected, providing them the means to access quality education.
                 </p>
@@ -138,7 +138,7 @@ export default function AboutPage() {
                 <div className="w-14 h-14 bg-amber-100 dark:bg-amber-900/30 rounded-2xl flex items-center justify-center text-amber-600 mb-6">
                     <Lightbulb size={32} />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Our Vision</h3>
+                <h3 className="text-2xl font-bold heading-text text-gray-900 dark:text-white mb-4">Our Vision</h3>
                 <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
                      To enhance the development of students who yearn for education, widening their horizon into the world and empowering them to become self-reliant, contributing members of society.
                 </p>
@@ -147,7 +147,7 @@ export default function AboutPage() {
 
         {/* Impact Journey */}
         <div className="reveal-section max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">Our Journey So Far</h2>
+            <h2 className="text-3xl font-bold heading-text text-gray-900 dark:text-white mb-8">Our Journey So Far</h2>
             <div className="bg-gray-50 dark:bg-zinc-900 p-10 rounded-3xl border border-gray-200 dark:border-zinc-800">
                 <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
                     Since our inception in <strong>2018</strong>, starting with just 6 beneficiaries from <strong className="text-green-600">Umuanu and Umuche communities</strong> in Amaukwu Obollo, we have grown significantly.
@@ -179,7 +179,7 @@ export default function AboutPage() {
                  <div className="inline-flex items-center gap-2 mb-4 text-green-600 bg-green-50 dark:bg-green-900/20 px-4 py-1.5 rounded-full text-sm font-bold uppercase tracking-wider">
                     <Users size={16} /> OUR LEADERSHIP
                  </div>
-                <h2 className="text-4xl font-bold text-gray-900 dark:text-white">Meet Our Board</h2>
+                <h2 className="text-4xl font-bold heading-text text-gray-900 dark:text-white">Meet Our Board</h2>
                 <p className="text-gray-500 mt-4 text-lg">The dedicated individuals steering the vision of Nzeudo Education Foundation.</p>
             </div>
 
@@ -198,7 +198,7 @@ export default function AboutPage() {
                             {member.name[0]}
                         </div>
                         <div>
-                            <h4 className="font-bold text-gray-900 dark:text-white group-hover:text-green-600 transition-colors text-lg leading-tight mb-1">{member.name}</h4>
+                            <h4 className="font-bold heading-text text-gray-900 dark:text-white group-hover:text-green-600 transition-colors text-lg leading-tight mb-1">{member.name}</h4>
                             <p className="text-sm text-gray-500 font-medium uppercase tracking-wide">{member.role}</p>
                         </div>
                     </div>

@@ -98,7 +98,7 @@ export default function ProjectsPage() {
         />
         <div ref={heroRef} className="relative z-10 container mx-auto px-6 text-center text-white">
             <span className="inline-block py-1 px-3 border border-white/30 rounded-full text-sm font-medium tracking-wider uppercase mb-6 backdrop-blur-md bg-white/10">Our Initiatives</span>
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">Meaningful Projects.<br/>Lasting Change.</h1>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 heading-text tracking-tight">Meaningful Projects.<br/>Lasting Change.</h1>
             <p className="text-xl md:text-2xl text-white/80 max-w-2xl mx-auto font-light">
                 Explore how we are transforming lives and communities through tangible, sustainable actions.
             </p>
@@ -122,7 +122,7 @@ export default function ProjectsPage() {
                     </div>
                     <div className="p-8 flex-1 flex flex-col">
                          <span className="text-green-500 text-sm font-semibold mb-3">{project.category}</span>
-                        <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 group-hover:text-green-600 transition-colors">{project.title}</h3>
+                        <h3 className="text-2xl font-bold heading-text text-gray-900 dark:text-white mb-4 group-hover:text-green-600 transition-colors">{project.title}</h3>
                         <p className="text-gray-500 text-base leading-relaxed mb-6 flex-1">{project.description}</p>
                         
                         <Link href="/contact" className="inline-flex items-center text-green-600 font-bold hover:gap-3 transition-all mt-auto group/link">
@@ -139,7 +139,7 @@ export default function ProjectsPage() {
             <div className="absolute bottom-0 left-0 w-64 h-64 bg-black/10 rounded-full blur-[80px] translate-y-1/2 -translate-x-1/2 pointer-events-none" />
             
             <div className="relative z-10">
-                <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Have a project in mind?</h2>
+                <h2 className="text-4xl md:text-5xl heading-text font-bold text-white mb-6">Have a project in mind?</h2>
                 <p className="text-green-100 mb-10 max-w-2xl mx-auto text-lg">We are always looking for new ways to make an impact. We welcome proposals and partnership opportunities from individuals and organizations.</p>
                 <Link 
                     href="/contact" 

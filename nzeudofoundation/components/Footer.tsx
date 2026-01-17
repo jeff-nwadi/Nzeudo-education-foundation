@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
             {/* Brand */}
             <div>
-                <Link href="/" className="text-2xl font-bold text-white mb-6 block">
+                <Link href="/" className="text-2xl heading-text font-bold text-white mb-6 block">
                     Nzeudo<span className="text-green-500">Foundation</span>
                 </Link>
                 <p className="mb-6 leading-relaxed">
@@ -32,7 +32,7 @@ const Footer = () => {
 
             {/* Quick Links */}
             <div>
-                <h4 className="text-white font-semibold mb-6">Quick Links</h4>
+                <h4 className="text-white heading-text font-semibold mb-6">Quick Links</h4>
                 <ul className="space-y-3">
                     <li><Link href="#about" className="hover:text-green-500 transition-colors">About Us</Link></li>
                     <li><Link href="#projects" className="hover:text-green-500 transition-colors">Our Projects</Link></li>
@@ -43,7 +43,7 @@ const Footer = () => {
 
              {/* Contact */}
              <div>
-                <h4 className="text-white font-semibold mb-6">Contact Us</h4>
+                <h4 className="text-white heading-text font-semibold mb-6">Contact Us</h4>
                 <ul className="space-y-4">
                     <li className="flex items-start gap-3">
                         <MapPin className="text-green-500 mt-1" size={18} />
@@ -62,7 +62,7 @@ const Footer = () => {
             
             {/* Newsletter */}
             <div>
-                <h4 className="text-white font-semibold mb-6">Newsletter</h4>
+                <h4 className="text-white heading-text font-semibold mb-6">Newsletter</h4>
                 <p className="mb-4 text-sm">Subscribe to get updates on our latest projects.</p>
                 <form className="flex flex-col gap-3">
                     <input 

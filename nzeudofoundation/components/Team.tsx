@@ -56,7 +56,7 @@ const Team = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
             <span className="text-blue-600 font-semibold tracking-wide uppercase text-sm">Our Leadership</span>
-            <h2 className="text-3xl md:text-5xl font-bold mt-2 mb-4 text-gray-900 dark:text-white">Meet the Coordinators</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mt-2 mb-4 heading-text text-gray-900 dark:text-white">Meet the Coordinators</h2>
             <p className="text-gray-500 max-w-2xl mx-auto">Driven by passion, guided by experience. Our team is dedicated to making education accessible to all.</p>
         </div>
 
@@ -77,7 +77,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className="p-6 text-center">
-                        <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-1">{member.name}</h3>
+                        <h3 className="text-xl font-bold heading-text text-gray-900 dark:text-white mb-1">{member.name}</h3>
                         <p className="text-blue-600 text-sm font-medium mb-3">{member.role}</p>
                         <p className="text-gray-500 text-sm leading-relaxed">{member.bio}</p>
                     </div>

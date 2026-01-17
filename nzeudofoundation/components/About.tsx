@@ -51,7 +51,7 @@ const About = () => {
                 <span className="about-reveal inline-block py-1 px-3 rounded-full bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 text-sm font-semibold tracking-wide uppercase">
                     About Us
                 </span>
-                <h2 className="about-reveal text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white leading-tight">
+                <h2 className="about-reveal heading-text text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white leading-tight">
                     An Enduring Human Capital Development Foundation
                 </h2>
                 <div className="space-y-6 text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
@@ -71,7 +71,7 @@ const About = () => {
 
                 <div className="about-reveal pt-4 flex gap-8 border-t border-gray-200 dark:border-gray-800 mt-6">
                     <div>
-                        <h4 className="text-3xl font-bold text-green-600">2018</h4>
+                        <h4 className="text-3xl heading-text font-bold text-green-600">2018</h4>
                         <p className="text-sm text-gray-500 font-medium uppercase tracking-wider">Established</p>
                     </div>
                 </div>

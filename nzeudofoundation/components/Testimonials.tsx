@@ -54,7 +54,7 @@ const Testimonials = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Voices of Change</h2>
+            <h2 className="text-3xl md:text-4xl heading-text font-bold mb-4">Voices of Change</h2>
             <div className="h-1 w-20 bg-green-500 rounded-full" />
         </div>
 
@@ -68,7 +68,7 @@ const Testimonials = () => {
                             {item.author[0]}
                         </div>
                         <div>
-                            <h4 className="font-bold text-white">{item.author}</h4>
+                            <h4 className="font-bold heading-text text-white">{item.author}</h4>
                             <p className="text-sm text-green-400">{item.role}</p>
                         </div>
                     </div>

@@ -70,7 +70,7 @@ export default function ImpactPage() {
             priority
         />
         <div className="relative z-10 container mx-auto px-6 text-center text-white">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">Our Impact</h1>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 heading-text tracking-tight">Our Impact</h1>
             <p className="text-xl md:text-2xl text-white/80 max-w-2xl mx-auto font-light">
                 Measuring success by the lives we touch, the students we empower, and the futures we build together.
             </p>
@@ -136,7 +136,7 @@ export default function ImpactPage() {
              
              <div className="w-full lg:w-1/2">
                 <span className="text-green-600 font-bold tracking-wide uppercase text-sm mb-4 block">Real Lives, Real Change</span>
-                <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">From Classroom <br/>to Career</h2>
+                <h2 className="text-4xl lg:text-5xl font-bold heading-text text-gray-900 dark:text-white mb-6 leading-tight">From Classroom <br/>to Career</h2>
                 <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
                     <p>
                         One of our earliest beneficiaries, Chike, was on the verge of dropping out due to lack of funds. His father had passed away, and his mother struggled to make ends meet.

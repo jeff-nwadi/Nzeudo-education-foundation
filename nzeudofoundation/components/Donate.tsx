@@ -15,7 +15,7 @@ const Donate = () => {
                 <span className="text-sm font-medium">Join 2,000+ Donors</span>
             </div>
             
-            <h2 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">
+            <h2 className="text-4xl md:text-6xl heading-text font-bold mb-6 tracking-tight">
                 Be the Reason Someone <br /> Smiles Today
             </h2>
             <p className="text-xl md:text-2xl text-green-100 max-w-2xl mx-auto mb-10 font-light">

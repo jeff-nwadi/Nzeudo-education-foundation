@@ -17,7 +17,7 @@ export default function ContactPage() {
             priority
         />
         <div className="relative z-10 text-center text-white px-6">
-            <h1 className="text-5xl md:text-6xl font-bold mb-4">Get in Touch</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-4 heading-text">Get in Touch</h1>
             <p className="text-xl text-white/80 max-w-xl mx-auto">We'd love to hear from you. Reach out for partnerships, inquiries, or just to say hello.</p>
         </div>
       </div>
@@ -32,7 +32,7 @@ export default function ContactPage() {
                  <div className="absolute bottom-0 left-0 w-40 h-40 bg-white/10 rounded-full translate-y-1/3 -translate-x-1/3" />
                  
                  <div className="relative z-10">
-                    <h3 className="text-2xl font-bold mb-8">Contact Information</h3>
+                    <h3 className="text-2xl font-bold mb-8 heading-text text-white">Contact Information</h3>
                     <p className="text-blue-100 mb-12 leading-relaxed">
                         Have questions about our programs? Our team is ready to help you with any information you need.
                     </p>

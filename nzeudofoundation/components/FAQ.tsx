@@ -36,7 +36,7 @@ const FAQ = () => {
                     <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 text-sm font-semibold mb-3">
                         <GraduationCap size={16} /> Scholarship & Support
                     </span>
-                    <h2 className="text-3xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">Frequently Asked Questions</h2>
+                    <h2 className="text-3xl md:text-5xl heading-text font-bold text-gray-900 dark:text-white mb-4">Frequently Asked Questions</h2>
                     <p className="text-gray-500">Everything you need to know about applying for aid and supporting our mission.</p>
                 </div>
 
@@ -55,7 +55,7 @@ const FAQ = () => {
                                 onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
                                 className="w-full flex items-center justify-between p-6 text-left focus:outline-none"
                             >
-                                <span className={cn("text-lg font-semibold", openIndex === idx ? "text-blue-600" : "text-gray-900 dark:text-white")}>
+                                <span className={cn("text-lg font-semibold heading-text", openIndex === idx ? "text-blue-600" : "text-gray-900 dark:text-white")}>
                                     {faq.question}
                                 </span>
                                 {openIndex === idx ? (

@@ -18,7 +18,7 @@ export default function DonatePage() {
         />
         <div className="relative z-10 container mx-auto px-6 text-center text-white">
             <Heart className="mx-auto w-16 h-16 text-red-500 mb-6 drop-shadow-sm fill-red-500 animate-pulse" />
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">Make a Difference</h1>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 heading-text tracking-tight">Make a Difference</h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto font-light">
                 Your generosity fuels our mission. Every donation goes directly to supporting student education and welfare.
             </p>
@@ -38,7 +38,7 @@ export default function DonatePage() {
                          <div className="p-4 bg-blue-100 dark:bg-blue-900/30 rounded-2xl text-blue-600">
                              <Landmark size={32} />
                          </div>
-                         <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Bank Transfer</h2>
+                         <h2 className="text-2xl font-bold text-gray-900 dark:text-white heading-text">Bank Transfer</h2>
                      </div>
                      
                      <div className="bg-gray-50 dark:bg-black/50 p-6 rounded-2xl border border-gray-100 dark:border-zinc-800 space-y-4">
@@ -66,7 +66,7 @@ export default function DonatePage() {
                          <div className="p-4 bg-purple-100 dark:bg-purple-900/30 rounded-2xl text-purple-600">
                              <Phone size={32} />
                          </div>
-                         <h2 className="text-2xl font-bold text-gray-900 dark:text-white">In-Kind Donations</h2>
+                         <h2 className="text-2xl font-bold text-gray-900 dark:text-white heading-text">In-Kind Donations</h2>
                      </div>
 
                      <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-8">
@@ -91,7 +91,7 @@ export default function DonatePage() {
 
              {/* Impact Breakdown */}
              <div className="bg-white dark:bg-zinc-900 rounded-3xl p-10 shadow-sm border border-gray-100 dark:border-zinc-800 text-center">
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">Where Your Money Goes</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 heading-text">Where Your Money Goes</h3>
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                     {[
                         { title: "85%", desc: "Student Programs", color: "text-blue-600" },

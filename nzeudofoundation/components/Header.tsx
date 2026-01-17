@@ -81,29 +81,32 @@ const Header = () => {
         </button>
 
         {/* Mobile Menu Overlay */}
+        {/* Mobile Menu Overlay */}
         <div className={cn(
-            "fixed inset-0 bg-white/95 dark:bg-black/95 backdrop-blur-xl z-40 flex flex-col items-center justify-center gap-8 transition-all duration-500 ease-in-out md:hidden",
+            "fixed inset-0 bg-white/95 dark:bg-black/95 backdrop-blur-xl z-40 overflow-y-auto transition-all duration-500 ease-in-out md:hidden",
             mobileMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full pointer-events-none"
         )}>
-            <nav className="flex flex-col items-center gap-8">
-                {navLinks.map(link => (
-                    <Link 
-                        key={link.name}
-                        href={link.href}
-                        className="text-2xl font-bold text-gray-900 dark:text-white hover:text-green-600 transition-colors"
-                        onClick={() => setMobileMenuOpen(false)}
-                    >
-                        {link.name}
-                    </Link>
-                ))}
-            </nav>
-            <Link
-                href="/donate"
-                className="px-8 py-4 rounded-full bg-green-600 text-white text-lg font-bold hover:bg-green-700 transition-colors "
-                onClick={() => setMobileMenuOpen(false)}
-            >
-                Donate Now
-            </Link>
+            <div className="min-h-full flex flex-col items-center justify-center gap-8 py-20">
+                <nav className="flex flex-col items-center gap-8">
+                    {navLinks.map(link => (
+                        <Link 
+                            key={link.name}
+                            href={link.href}
+                            className="text-2xl font-bold text-gray-900 dark:text-white hover:text-green-600 transition-colors"
+                            onClick={() => setMobileMenuOpen(false)}
+                        >
+                            {link.name}
+                        </Link>
+                    ))}
+                </nav>
+                <Link
+                    href="/donate"
+                    className="px-8 py-4 rounded-full bg-green-600 text-white text-lg font-bold hover:bg-green-700 transition-colors "
+                    onClick={() => setMobileMenuOpen(false)}
+                >
+                    Donate Now
+                </Link>
+            </div>
         </div>
     </header>
   );

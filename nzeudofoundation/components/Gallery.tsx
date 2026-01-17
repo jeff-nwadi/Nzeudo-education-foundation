@@ -61,7 +61,7 @@ const Gallery = () => {
     <section id="projects" ref={containerRef} className="py-24 bg-white dark:bg-zinc-950">
       <div className="container mx-auto px-6">
         <div className="mb-16 text-center">
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">Our Impact in Action</h2>
+            <h2 className="text-3xl md:text-5xl heading-text font-bold mb-4">Our Impact in Action</h2>
             <p className="text-gray-500 max-w-xl mx-auto">We don't just talk about change; we make it happen. Explore our recent initiatives.</p>
         </div>
 
@@ -84,7 +84,7 @@ const Gallery = () => {
                     />
                     <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
                         <span className="text-green-400 text-sm font-medium mb-1 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">{project.category}</span>
-                        <h3 className="text-white text-2xl font-bold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-100">{project.title}</h3>
+                        <h3 className="text-white text-2xl heading-text font-bold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-100">{project.title}</h3>
                     </div>
                 </div>
             ))}
