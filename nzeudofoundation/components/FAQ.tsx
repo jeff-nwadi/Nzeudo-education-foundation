@@ -33,7 +33,7 @@ const FAQ = () => {
         <section id="faq" className="py-24 bg-white dark:bg-zinc-950">
             <div className="container mx-auto px-6 max-w-4xl">
                 <div className="text-center mb-12">
-                    <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 text-sm font-semibold mb-3">
+                    <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 text-sm font-semibold mb-3">
                         <GraduationCap size={16} /> Scholarship & Support
                     </span>
                     <h2 className="text-3xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">Frequently Asked Questions</h2>
@@ -47,7 +47,7 @@ const FAQ = () => {
                             className={cn(
                                 "border rounded-2xl transition-all duration-300 overflow-hidden",
                                 openIndex === idx 
-                                    ? "border-blue-500 bg-blue-50/50 dark:bg-blue-900/10 shadow-md" 
+                                    ? "border-green-500 bg-green-50/50 dark:bg-green-900/10 shadow-sm" 
                                     : "border-gray-200 dark:border-zinc-800 hover:border-gray-300"
                             )}
                         >
@@ -82,7 +82,7 @@ const FAQ = () => {
 
                 <div className="mt-12 text-center p-8 bg-gray-50 dark:bg-zinc-900 rounded-2xl border border-dashed border-gray-300 dark:border-zinc-700">
                     <p className="text-gray-600 dark:text-gray-400 mb-4">Still have questions about your application?</p>
-                    <a href="mailto:support@nzeudofoundation.org" className="text-blue-600 font-semibold hover:underline">
+                    <a href="mailto:support@nzeudofoundation.org" className="text-green-600 font-semibold hover:underline">
                         Contact our Support Team &rarr;
                     </a>
                 </div>

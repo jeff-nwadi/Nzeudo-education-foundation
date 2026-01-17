@@ -57,13 +57,13 @@ const Hero = () => {
       {/* Content */}
       <div ref={textRef} className="relative z-10 container mx-auto px-6 text-center text-white">
         <h1 className="hero-text-element text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          Empowering <span className="text-blue-400">Futures</span>
+          Empowering <span className="text-green-400">Futures</span>
         </h1>
         <p className="hero-text-element text-lg md:text-2xl max-w-2xl mx-auto mb-10 text-gray-200 font-light">
           Nzeudo Education Foundation is dedicated to bridging the gap in educational access and fostering academic excellence for every child.
         </p>
         <div className="hero-text-element flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-semibold text-lg transition-all transform hover:scale-105 active:scale-95 shadow-xl shadow-blue-900/20">
+          <button className="px-8 py-4 bg-green-600 hover:bg-green-700 text-white rounded-full font-semibold text-lg transition-all transform hover:scale-105 active:scale-95 shadow-sm shadow-green-900/20">
             Our Mission
           </button>
           <button className="px-8 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white border border-white/30 rounded-full font-semibold text-lg transition-all">

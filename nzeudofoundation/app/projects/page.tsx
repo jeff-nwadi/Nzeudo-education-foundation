@@ -41,14 +41,14 @@ const projects = [
         title: "Skill Acquisition Workshop",
         category: "Vocational",
         description: "Teaching practical skills like tailoring, carpentry, and soap making to ensure economic self-reliance.",
-        image: "https://images.unsplash.com/photo-1596468138838-70668f770143?q=80&w=1964&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1628147667232-95df876b509e?q=80&w=2069&auto=format&fit=crop",
         status: "Ongoing"
     },
      {
         title: "Clean Water Initiative",
         category: "Infrastructure",
         description: "Installing solar-powered boreholes in 3 schools to ensure access to clean and safe drinking water.",
-        image: "https://images.unsplash.com/photo-1528629738018-0951a860714c?q=80&w=2069&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1566373738870-13f6d0a7900b?q=80&w=2069&auto=format&fit=crop",
         status: "Planning"
     }
 ];
@@ -108,7 +108,7 @@ export default function ProjectsPage() {
       <div className="container mx-auto px-6 -mt-20 relative z-20">
         <div className="projects-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, idx) => (
-                <div key={idx} className="project-card group bg-white dark:bg-zinc-900 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-zinc-800 flex flex-col h-full">
+                <div key={idx} className="project-card group bg-white dark:bg-zinc-900 rounded-2xl overflow-hidden shadow-sm hover:shadow-sm transition-all duration-300 border border-gray-100 dark:border-zinc-800 flex flex-col h-full">
                     <div className="relative h-64 w-full overflow-hidden">
                         <Image
                             src={project.image}
@@ -116,16 +116,16 @@ export default function ProjectsPage() {
                             fill
                             className="object-cover transition-transform duration-700 group-hover:scale-110"
                         />
-                         <div className="absolute top-4 right-4 bg-white/90 dark:bg-black/80 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider text-blue-600 shadow-sm">
+                         <div className="absolute top-4 right-4 bg-white/90 dark:bg-black/80 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider text-green-600 shadow-sm">
                             {project.status}
                         </div>
                     </div>
                     <div className="p-8 flex-1 flex flex-col">
-                         <span className="text-blue-500 text-sm font-semibold mb-3">{project.category}</span>
-                        <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 group-hover:text-blue-600 transition-colors">{project.title}</h3>
+                         <span className="text-green-500 text-sm font-semibold mb-3">{project.category}</span>
+                        <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 group-hover:text-green-600 transition-colors">{project.title}</h3>
                         <p className="text-gray-500 text-base leading-relaxed mb-6 flex-1">{project.description}</p>
                         
-                        <Link href="/contact" className="inline-flex items-center text-blue-600 font-bold hover:gap-3 transition-all mt-auto group/link">
+                        <Link href="/contact" className="inline-flex items-center text-green-600 font-bold hover:gap-3 transition-all mt-auto group/link">
                             Partner on this <ArrowRight size={18} className="ml-2 group-hover/link:translate-x-1 transition-transform" />
                         </Link>
                     </div>
@@ -133,17 +133,17 @@ export default function ProjectsPage() {
             ))}
         </div>
 
-        <div className="mt-24 text-center bg-blue-600 rounded-3xl p-16 relative overflow-hidden shadow-2xl">
+        <div className="mt-24 text-center bg-green-600 rounded-3xl p-16 relative overflow-hidden shadow-sm">
              {/* decorative */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2 pointer-events-none" />
             <div className="absolute bottom-0 left-0 w-64 h-64 bg-black/10 rounded-full blur-[80px] translate-y-1/2 -translate-x-1/2 pointer-events-none" />
             
             <div className="relative z-10">
                 <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Have a project in mind?</h2>
-                <p className="text-blue-100 mb-10 max-w-2xl mx-auto text-lg">We are always looking for new ways to make an impact. We welcome proposals and partnership opportunities from individuals and organizations.</p>
+                <p className="text-green-100 mb-10 max-w-2xl mx-auto text-lg">We are always looking for new ways to make an impact. We welcome proposals and partnership opportunities from individuals and organizations.</p>
                 <Link 
                     href="/contact" 
-                    className="inline-block px-10 py-5 bg-white text-blue-600 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg hover:shadow-xl hover:-translate-y-1 transform duration-300"
+                    className="inline-block px-10 py-5 bg-white text-green-600 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors shadow-sm hover:shadow-sm hover:-translate-y-1 transform duration-300"
                 >
                     Submit a Proposal
                 </Link>

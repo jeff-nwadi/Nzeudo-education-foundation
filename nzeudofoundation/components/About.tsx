@@ -48,7 +48,7 @@ const About = () => {
             </div>
 
             <div className="w-full lg:w-1/2 space-y-8">
-                <span className="about-reveal inline-block py-1 px-3 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 text-sm font-semibold tracking-wide uppercase">
+                <span className="about-reveal inline-block py-1 px-3 rounded-full bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 text-sm font-semibold tracking-wide uppercase">
                     About Us
                 </span>
                 <h2 className="about-reveal text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white leading-tight">
@@ -56,7 +56,7 @@ const About = () => {
                 </h2>
                 <div className="space-y-6 text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
                     <p className="about-reveal">
-                        Founded by <span className="font-semibold text-blue-600 dark:text-blue-400">Engr. Sir Nze M.B.C Osuagwu</span>, the Nzeudo Education Foundation is a non-profit platform dedicated to supporting indigent but brilliant children who have lost their family breadwinners.
+                        Founded by <span className="font-semibold text-green-600 dark:text-green-400">Engr. Sir Nze M.B.C Osuagwu</span>, the Nzeudo Education Foundation is a non-profit platform dedicated to supporting indigent but brilliant children who have lost their family breadwinners.
                     </p>
                     <p className="about-reveal">
                          We believe that education is a harbinger of human capital development. Since 2018, we have been empowering the voiceless and neglected in our communities, guiding them from primary school through to university and vocational skills acquisition.
@@ -64,14 +64,14 @@ const About = () => {
                 </div>
                 
                 <div className="about-reveal pt-4">
-                     <Link href="/about" className="inline-flex items-center gap-2 text-blue-600 font-bold hover:text-blue-700 hover:gap-3 transition-all">
+                     <Link href="/about" className="inline-flex items-center gap-2 text-green-600 font-bold hover:text-green-700 hover:gap-3 transition-all">
                         Read Our Full Story <ArrowRight size={20} />
                      </Link>
                 </div>
 
                 <div className="about-reveal pt-4 flex gap-8 border-t border-gray-200 dark:border-gray-800 mt-6">
                     <div>
-                        <h4 className="text-3xl font-bold text-blue-600">2018</h4>
+                        <h4 className="text-3xl font-bold text-green-600">2018</h4>
                         <p className="text-sm text-gray-500 font-medium uppercase tracking-wider">Established</p>
                     </div>
                 </div>

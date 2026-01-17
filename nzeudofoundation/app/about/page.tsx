@@ -86,9 +86,9 @@ export default function AboutPage() {
       <div className="container mx-auto px-6 -mt-20 relative z-20 space-y-24">
         
         {/* Founder Section */}
-        <div className="reveal-section bg-white dark:bg-zinc-900 rounded-3xl p-8 md:p-12 shadow-2xl border border-gray-100 dark:border-zinc-800 flex flex-col md:flex-row gap-12 items-center">
+        <div className="reveal-section bg-white dark:bg-zinc-900 rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100 dark:border-zinc-800 flex flex-col md:flex-row gap-12 items-center">
             <div className="w-full md:w-2/5 shrink-0">
-                <div className="relative aspect-3/4 rounded-2xl overflow-hidden shadow-xl border-4 border-white dark:border-zinc-800">
+                <div className="relative aspect-3/4 rounded-2xl overflow-hidden shadow-sm border-4 border-white dark:border-zinc-800">
                     <Image 
                          src={NzeudoLogo} 
                          alt="Engr. Sir Nze M.B.C Osuagwu"
@@ -105,18 +105,18 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">The Visionary Behind NEF</h2>
                 <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
                     <p>
-                        <strong>Nzeudo Education Foundation</strong> is a non-profit organization founded by <strong className="text-blue-600">Engr. Sir Nze M.B.C Osuagwu</strong>, a chartered chemical engineer with deep expertise in the petroleum industry.
+                        <strong>Nzeudo Education Foundation</strong> is a non-profit organization founded by <strong className="text-green-600">Engr. Sir Nze M.B.C Osuagwu</strong>, a chartered chemical engineer with deep expertise in the petroleum industry.
                     </p>
                     <p>
                         Beyond his professional accolades, Nze Osuagwu is a dedicated humanitarian who firmly believes that <span className="italic text-gray-900 dark:text-white font-medium">"education is the harbinger of human capital development."</span>
                     </p>
-                    <div className="flex items-start gap-4 p-6 bg-blue-50 dark:bg-blue-900/10 rounded-2xl border border-blue-100 dark:border-blue-900/30">
-                        <Quote className="text-blue-600 shrink-0 mt-1" size={24} />
+                    <div className="flex items-start gap-4 p-6 bg-green-50 dark:bg-green-900/10 rounded-2xl border border-green-100 dark:border-green-900/30">
+                        <Quote className="text-green-600 shrink-0 mt-1" size={24} />
                         <div>
                             <p className="italic text-gray-700 dark:text-gray-200 font-medium mb-3">
                                 "I do what I do not because I am wealthy but because I love humanity and am ever willing to give back to the community."
                             </p>
-                            <cite className="text-sm font-bold text-blue-600 not-italic">— Engr. Sir Nze M.B.C Osuagwu</cite>
+                            <cite className="text-sm font-bold text-green-600 not-italic">— Engr. Sir Nze M.B.C Osuagwu</cite>
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ export default function AboutPage() {
 
         {/* Mission & Vision Cards */}
         <div className="reveal-section grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white dark:bg-zinc-900 p-10 rounded-3xl shadow-lg border border-gray-100 dark:border-zinc-800 hover:-translate-y-1 transition-transform duration-300">
+            <div className="bg-white dark:bg-zinc-900 p-10 rounded-3xl shadow-sm border border-gray-100 dark:border-zinc-800 hover:-translate-y-1 transition-transform duration-300">
                 <div className="w-14 h-14 bg-red-100 dark:bg-red-900/30 rounded-2xl flex items-center justify-center text-red-600 mb-6">
                     <Target size={32} />
                 </div>
@@ -134,7 +134,7 @@ export default function AboutPage() {
                     To serve as a platform for supporting <strong className="text-gray-900 dark:text-white">indigent but brilliant children</strong> who have lost their family breadwinner. We focus on the voiceless, the downtrodden, and the neglected, providing them the means to access quality education.
                 </p>
             </div>
-            <div className="bg-white dark:bg-zinc-900 p-10 rounded-3xl shadow-lg border border-gray-100 dark:border-zinc-800 hover:-translate-y-1 transition-transform duration-300">
+            <div className="bg-white dark:bg-zinc-900 p-10 rounded-3xl shadow-sm border border-gray-100 dark:border-zinc-800 hover:-translate-y-1 transition-transform duration-300">
                 <div className="w-14 h-14 bg-amber-100 dark:bg-amber-900/30 rounded-2xl flex items-center justify-center text-amber-600 mb-6">
                     <Lightbulb size={32} />
                 </div>
@@ -150,23 +150,23 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">Our Journey So Far</h2>
             <div className="bg-gray-50 dark:bg-zinc-900 p-10 rounded-3xl border border-gray-200 dark:border-zinc-800">
                 <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-                    Since our inception in <strong>2018</strong>, starting with just 6 beneficiaries from <strong className="text-blue-600">Umuanu and Umuche communities</strong> in Amaukwu Obollo, we have grown significantly.
+                    Since our inception in <strong>2018</strong>, starting with just 6 beneficiaries from <strong className="text-green-600">Umuanu and Umuche communities</strong> in Amaukwu Obollo, we have grown significantly.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-left mt-8">
                      <div className="p-4 bg-white dark:bg-black/40 rounded-xl">
-                        <div className="text-3xl font-bold text-blue-600 mb-1">2+</div>
+                        <div className="text-3xl font-bold text-green-600 mb-1">2+</div>
                         <div className="text-sm text-gray-500 font-semibold">University Graduates</div>
                      </div>
                      <div className="p-4 bg-white dark:bg-black/40 rounded-xl">
-                        <div className="text-3xl font-bold text-blue-600 mb-1">3+</div>
+                        <div className="text-3xl font-bold text-green-600 mb-1">3+</div>
                         <div className="text-sm text-gray-500 font-semibold">Current Undergrads</div>
                      </div>
                      <div className="p-4 bg-white dark:bg-black/40 rounded-xl">
-                        <div className="text-3xl font-bold text-blue-600 mb-1">Many</div>
+                        <div className="text-3xl font-bold text-green-600 mb-1">Many</div>
                         <div className="text-sm text-gray-500 font-semibold">Vocational Trainees</div>
                      </div>
                      <div className="p-4 bg-white dark:bg-black/40 rounded-xl">
-                        <div className="text-3xl font-bold text-blue-600 mb-1">2018</div>
+                        <div className="text-3xl font-bold text-green-600 mb-1">2018</div>
                         <div className="text-sm text-gray-500 font-semibold">Establishment Year</div>
                      </div>
                 </div>
@@ -176,7 +176,7 @@ export default function AboutPage() {
         {/* Board of Coordinators */}
         <div className="reveal-section space-y-12">
             <div className="text-center max-w-2xl mx-auto">
-                 <div className="inline-flex items-center gap-2 mb-4 text-blue-600 bg-blue-50 dark:bg-blue-900/20 px-4 py-1.5 rounded-full text-sm font-bold uppercase tracking-wider">
+                 <div className="inline-flex items-center gap-2 mb-4 text-green-600 bg-green-50 dark:bg-green-900/20 px-4 py-1.5 rounded-full text-sm font-bold uppercase tracking-wider">
                     <Users size={16} /> OUR LEADERSHIP
                  </div>
                 <h2 className="text-4xl font-bold text-gray-900 dark:text-white">Meet Our Board</h2>
@@ -193,12 +193,12 @@ export default function AboutPage() {
                     { name: "Lolo Ogechukwu Osuagwu", role: "Member" },
                     { name: "Dr. Aloy Duru", role: "NEF Ambassador of Academic Excellence" }
                 ].map((member, idx) => (
-                    <div key={idx} className="team-card flex items-center p-6 bg-white dark:bg-zinc-900 rounded-2xl border border-gray-100 dark:border-zinc-800 shadow-lg hover:shadow-xl hover:border-blue-200 dark:hover:border-blue-900 transition-all duration-300 group">
-                        <div className="w-14 h-14 bg-linear-to-br from-blue-500 to-blue-700 text-white rounded-full flex items-center justify-center font-bold text-xl mr-5 shrink-0 shadow-md group-hover:scale-110 transition-transform">
+                    <div key={idx} className="team-card flex items-center p-6 bg-white dark:bg-zinc-900 rounded-2xl border border-gray-100 dark:border-zinc-800 shadow-sm hover:shadow-sm hover:border-green-200 dark:hover:border-green-900 transition-all duration-300 group">
+                        <div className="w-14 h-14 bg-linear-to-br from-green-500 to-green-700 text-white rounded-full flex items-center justify-center font-bold text-xl mr-5 shrink-0 shadow-sm group-hover:scale-110 transition-transform">
                             {member.name[0]}
                         </div>
                         <div>
-                            <h4 className="font-bold text-gray-900 dark:text-white group-hover:text-blue-600 transition-colors text-lg leading-tight mb-1">{member.name}</h4>
+                            <h4 className="font-bold text-gray-900 dark:text-white group-hover:text-green-600 transition-colors text-lg leading-tight mb-1">{member.name}</h4>
                             <p className="text-sm text-gray-500 font-medium uppercase tracking-wide">{member.role}</p>
                         </div>
                     </div>

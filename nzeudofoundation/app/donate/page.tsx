@@ -17,7 +17,7 @@ export default function DonatePage() {
             priority
         />
         <div className="relative z-10 container mx-auto px-6 text-center text-white">
-            <Heart className="mx-auto w-16 h-16 text-red-500 mb-6 drop-shadow-2xl fill-red-500 animate-pulse" />
+            <Heart className="mx-auto w-16 h-16 text-red-500 mb-6 drop-shadow-sm fill-red-500 animate-pulse" />
             <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">Make a Difference</h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto font-light">
                 Your generosity fuels our mission. Every donation goes directly to supporting student education and welfare.
@@ -31,7 +31,7 @@ export default function DonatePage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
                 
                 {/* Bank Transfer Card */}
-                <div className="bg-white dark:bg-zinc-900 rounded-3xl p-10 shadow-xl border border-blue-100 dark:border-blue-900/30 hover:-translate-y-2 transition-transform duration-300 relative overflow-hidden group">
+                <div className="bg-white dark:bg-zinc-900 rounded-3xl p-10 shadow-sm border border-blue-100 dark:border-blue-900/30 hover:-translate-y-2 transition-transform duration-300 relative overflow-hidden group">
                      <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-3xl group-hover:bg-blue-500/20 transition-colors" />
                      
                      <div className="flex items-center gap-4 mb-8">
@@ -59,7 +59,7 @@ export default function DonatePage() {
                 </div>
 
                 {/* In-Kind Card */}
-                <div className="bg-white dark:bg-zinc-900 rounded-3xl p-10 shadow-xl border border-purple-100 dark:border-purple-900/30 hover:-translate-y-2 transition-transform duration-300 relative overflow-hidden group">
+                <div className="bg-white dark:bg-zinc-900 rounded-3xl p-10 shadow-sm border border-purple-100 dark:border-purple-900/30 hover:-translate-y-2 transition-transform duration-300 relative overflow-hidden group">
                      <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500/10 rounded-full blur-3xl group-hover:bg-purple-500/20 transition-colors" />
 
                      <div className="flex items-center gap-4 mb-8">

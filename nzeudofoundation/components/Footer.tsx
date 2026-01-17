@@ -9,22 +9,22 @@ const Footer = () => {
             {/* Brand */}
             <div>
                 <Link href="/" className="text-2xl font-bold text-white mb-6 block">
-                    Nzeudo<span className="text-blue-500">Foundation</span>
+                    Nzeudo<span className="text-green-500">Foundation</span>
                 </Link>
                 <p className="mb-6 leading-relaxed">
                     Empowering the next generation through education, innovation, and community support.
                 </p>
                 <div className="flex gap-4">
-                    <a href="#" className="p-2 bg-zinc-900 rounded-full hover:bg-blue-600 hover:text-white transition-colors">
+                    <a href="#" className="p-2 bg-zinc-900 rounded-full hover:bg-green-600 hover:text-white transition-colors">
                         <Facebook size={18} />
                     </a>
-                    <a href="#" className="p-2 bg-zinc-900 rounded-full hover:bg-blue-600 hover:text-white transition-colors">
+                    <a href="#" className="p-2 bg-zinc-900 rounded-full hover:bg-green-600 hover:text-white transition-colors">
                         <Twitter size={18} />
                     </a>
-                    <a href="#" className="p-2 bg-zinc-900 rounded-full hover:bg-blue-600 hover:text-white transition-colors">
+                    <a href="#" className="p-2 bg-zinc-900 rounded-full hover:bg-green-600 hover:text-white transition-colors">
                         <Instagram size={18} />
                     </a>
-                    <a href="#" className="p-2 bg-zinc-900 rounded-full hover:bg-blue-600 hover:text-white transition-colors">
+                    <a href="#" className="p-2 bg-zinc-900 rounded-full hover:bg-green-600 hover:text-white transition-colors">
                         <Linkedin size={18} />
                     </a>
                 </div>
@@ -34,10 +34,10 @@ const Footer = () => {
             <div>
                 <h4 className="text-white font-semibold mb-6">Quick Links</h4>
                 <ul className="space-y-3">
-                    <li><Link href="#about" className="hover:text-blue-500 transition-colors">About Us</Link></li>
-                    <li><Link href="#projects" className="hover:text-blue-500 transition-colors">Our Projects</Link></li>
-                    <li><Link href="#donate" className="hover:text-blue-500 transition-colors">Donate</Link></li>
-                    <li><Link href="#" className="hover:text-blue-500 transition-colors">Volunteer</Link></li>
+                    <li><Link href="#about" className="hover:text-green-500 transition-colors">About Us</Link></li>
+                    <li><Link href="#projects" className="hover:text-green-500 transition-colors">Our Projects</Link></li>
+                    <li><Link href="#donate" className="hover:text-green-500 transition-colors">Donate</Link></li>
+                    <li><Link href="#" className="hover:text-green-500 transition-colors">Volunteer</Link></li>
                 </ul>
             </div>
 
@@ -46,15 +46,15 @@ const Footer = () => {
                 <h4 className="text-white font-semibold mb-6">Contact Us</h4>
                 <ul className="space-y-4">
                     <li className="flex items-start gap-3">
-                        <MapPin className="text-blue-500 mt-1" size={18} />
+                        <MapPin className="text-green-500 mt-1" size={18} />
                         <span>123 Education Lane, Lagos, Nigeria</span>
                     </li>
                     <li className="flex items-center gap-3">
-                        <Phone className="text-blue-500" size={18} />
+                        <Phone className="text-green-500" size={18} />
                         <span>+234 123 456 7890</span>
                     </li>
                     <li className="flex items-center gap-3">
-                        <Mail className="text-blue-500" size={18} />
+                        <Mail className="text-green-500" size={18} />
                         <span>contact@nzeudofoundation.org</span>
                     </li>
                 </ul>
@@ -68,9 +68,9 @@ const Footer = () => {
                     <input 
                         type="email" 
                         placeholder="Your email address" 
-                        className="bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-500 transition-colors"
+                        className="bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-green-500 transition-colors"
                     />
-                    <button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-lg font-semibold transition-colors">
+                    <button type="submit" className="bg-green-600 hover:bg-green-700 text-white px-4 py-3 rounded-lg font-semibold transition-colors">
                         Subscribe
                     </button>
                 </form>

@@ -39,7 +39,7 @@ const Header = () => {
     >
         <Link href="/" className="flex items-center gap-2 z-50 relative">
             {/* Logo placeholder - replace with actual logo */}
-            <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold">N</div>
+            <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center text-white font-bold">N</div>
             <span className={cn(
                 "text-xl font-bold tracking-tight", 
                 scrolled || mobileMenuOpen ? "text-gray-900 dark:text-gray-100" : "text-white"
@@ -54,7 +54,7 @@ const Header = () => {
                 <Link 
                     key={link.name}
                     href={link.href}
-                    className={cn("text-sm font-medium transition-colors hover:text-blue-400", scrolled ? "text-gray-600 dark:text-gray-300" : "text-white/90")}
+                    className={cn("text-sm font-medium transition-colors hover:text-green-400", scrolled ? "text-gray-600 dark:text-gray-300" : "text-white/90")}
                 >
                     {link.name}
                 </Link>
@@ -64,7 +64,7 @@ const Header = () => {
         <div className="hidden md:block">
             <Link
                 href="/donate"
-                className="px-5 py-2 rounded-full bg-blue-600 text-white text-sm font-semibold hover:bg-blue-700 transition-colors"
+                className="px-5 py-2 rounded-full bg-green-600 text-white text-sm font-semibold hover:bg-green-700 transition-colors"
             >
                 Donate Now
             </Link>
@@ -90,7 +90,7 @@ const Header = () => {
                     <Link 
                         key={link.name}
                         href={link.href}
-                        className="text-2xl font-bold text-gray-900 dark:text-white hover:text-blue-600 transition-colors"
+                        className="text-2xl font-bold text-gray-900 dark:text-white hover:text-green-600 transition-colors"
                         onClick={() => setMobileMenuOpen(false)}
                     >
                         {link.name}
@@ -99,7 +99,7 @@ const Header = () => {
             </nav>
             <Link
                 href="/donate"
-                className="px-8 py-4 rounded-full bg-blue-600 text-white text-lg font-bold hover:bg-blue-700 transition-colors "
+                className="px-8 py-4 rounded-full bg-green-600 text-white text-lg font-bold hover:bg-green-700 transition-colors "
                 onClick={() => setMobileMenuOpen(false)}
             >
                 Donate Now

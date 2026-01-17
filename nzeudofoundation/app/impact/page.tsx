@@ -82,12 +82,12 @@ export default function ImpactPage() {
         {/* Stats Grid */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-32">
             {[
-                { label: "Students Supported", value: "500+", icon: Users, color: "text-blue-500", bg: "bg-blue-500/10" },
+                { label: "Students Supported", value: "500+", icon: Users, color: "text-green-500", bg: "bg-green-500/10" },
                 { label: "Scholarships Awarded", value: "120+", icon: Trophy, color: "text-yellow-500", bg: "bg-yellow-500/10" },
                 { label: "Books Distributed", value: "5000+", icon: BookOpen, color: "text-green-500", bg: "bg-green-500/10" },
                 { label: "Schools Partnered", value: "50+", icon: School, color: "text-purple-500", bg: "bg-purple-500/10" },
             ].map((stat, idx) => (
-                <div key={idx} className="stat-card bg-white dark:bg-zinc-900 p-8 rounded-3xl text-center shadow-lg border border-gray-100 dark:border-zinc-800 hover:-translate-y-2 transition-transform duration-300">
+                <div key={idx} className="stat-card bg-white dark:bg-zinc-900 p-8 rounded-3xl text-center shadow-sm border border-gray-100 dark:border-zinc-800 hover:-translate-y-2 transition-transform duration-300">
                     <div className={`mx-auto ${stat.color} ${stat.bg} w-16 h-16 rounded-2xl flex items-center justify-center mb-6`}>
                         <stat.icon size={32} />
                     </div>
@@ -100,7 +100,7 @@ export default function ImpactPage() {
         {/* Story Section */}
         <div className="story-section flex flex-col lg:flex-row items-center gap-16 mb-24">
              <div className="w-full lg:w-1/2 relative">
-                <div className="relative aspect-4/3 rounded-3xl overflow-hidden shadow-2xl">
+                <div className="relative aspect-4/3 rounded-3xl overflow-hidden shadow-sm">
                      <Image 
                         src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2034&auto=format&fit=crop" 
                         alt="Impact Story"
@@ -109,13 +109,13 @@ export default function ImpactPage() {
                     />
                     <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/80 to-transparent p-8">
                         <div className="flex gap-2 text-white/90 text-sm font-medium items-center">
-                            <span className="bg-blue-600 px-2 py-1 rounded-sm text-white text-xs uppercase tracking-wider">Success Story</span>
+                            <span className="bg-green-600 px-2 py-1 rounded-sm text-white text-xs uppercase tracking-wider">Success Story</span>
                             <span>Class of 2021</span>
                         </div>
                     </div>
                 </div>
                 {/* Floating quote card */}
-                <div className="hidden lg:block absolute -bottom-10 -right-10 bg-white dark:bg-zinc-800 p-6 rounded-2xl shadow-xl border border-gray-100 dark:border-zinc-700 max-w-xs">
+                <div className="hidden lg:block absolute -bottom-10 -right-10 bg-white dark:bg-zinc-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-zinc-700 max-w-xs">
                     <p className="text-gray-600 dark:text-gray-300 italic text-sm mb-4">"NEF didn't just pay my fees; they gave me the confidence to dream bigger than my circumstances."</p>
                     <div className="flex items-center gap-3">
                         <div className="w-10 h-10 rounded-full bg-gray-200 overflow-hidden relative">
@@ -135,7 +135,7 @@ export default function ImpactPage() {
              </div>
              
              <div className="w-full lg:w-1/2">
-                <span className="text-blue-600 font-bold tracking-wide uppercase text-sm mb-4 block">Real Lives, Real Change</span>
+                <span className="text-green-600 font-bold tracking-wide uppercase text-sm mb-4 block">Real Lives, Real Change</span>
                 <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">From Classroom <br/>to Career</h2>
                 <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
                     <p>

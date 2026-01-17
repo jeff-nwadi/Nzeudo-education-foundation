@@ -62,7 +62,7 @@ const Team = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {teamMembers.map((member, idx) => (
-                <div key={idx} className="team-card group bg-white dark:bg-zinc-950 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-zinc-800">
+                <div key={idx} className="team-card group bg-white dark:bg-zinc-950 rounded-2xl overflow-hidden shadow-sm hover:shadow-sm transition-all duration-300 border border-gray-100 dark:border-zinc-800">
                     <div className="relative h-80 w-full overflow-hidden">
                         <Image
                             src={member.image}

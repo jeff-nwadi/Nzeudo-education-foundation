@@ -23,10 +23,10 @@ export default function ContactPage() {
       </div>
 
       <div className="container mx-auto px-6 -mt-20 relative z-20">
-        <div className="bg-white dark:bg-zinc-900 rounded-3xl shadow-2xl overflow-hidden border border-gray-100 dark:border-zinc-800 flex flex-col lg:flex-row">
+        <div className="bg-white dark:bg-zinc-900 rounded-3xl shadow-sm overflow-hidden border border-gray-100 dark:border-zinc-800 flex flex-col lg:flex-row">
             
             {/* Contact Info Sidebar */}
-            <div className="lg:w-2/5 p-12 bg-blue-600 text-white relative overflow-hidden">
+            <div className="lg:w-2/5 p-12 bg-green-600 text-white relative overflow-hidden">
                  {/* Decorative background circles */}
                  <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2" />
                  <div className="absolute bottom-0 left-0 w-40 h-40 bg-white/10 rounded-full translate-y-1/3 -translate-x-1/3" />
@@ -107,7 +107,7 @@ export default function ContactPage() {
                         <label htmlFor="message" className="absolute left-0 -top-3.5 text-sm text-gray-500 transition-all peer-placeholder-shown:top-2.5 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:-top-3.5 peer-focus:text-sm peer-focus:text-blue-600">Message</label>
                     </div>
 
-                    <button type="button" className="w-full py-4 bg-gray-900 dark:bg-blue-600 text-white font-bold rounded-xl hover:opacity-90 transition-opacity shadow-lg">
+                    <button type="button" className="w-full py-4 bg-gray-900 dark:bg-blue-600 text-white font-bold rounded-xl hover:opacity-90 transition-opacity shadow-sm">
                         Send Message
                     </button>
                 </form>
