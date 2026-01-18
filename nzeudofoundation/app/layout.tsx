@@ -4,8 +4,22 @@ import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Poppins } from "next/font/google";
+import { Francois_One } from "next/font/google";
+import { cn } from "@/lib/utils";
 
-const manrope = Manrope({ subsets: ["latin"] });
+const francoisOne = Francois_One({ 
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-francois-one"
+
+});
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-poppins"
+});
 
 export const metadata: Metadata = {
   title: "Nzeudo Education Foundation",
@@ -19,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={manrope.className}>
+      <body className={`${poppins.variable} ${francoisOne.variable} antialiased`}>
         <SmoothScroll>
           <Header />
           <main>
